@@ -8,6 +8,6 @@ module.exports = function(client, string) {
     if (unicode.test(string)) return string
     array = string.split(':')
     element = array[array.length - 1]
-    id = id.endsWith('>') ? element.substr(element.length - 1) : element
+    id = element.endsWith('>') ? element.substr(element.length - 1) : element
     return client.emojis.cache.get(id) ? client.emojis.cache.get(id) : null
 }
