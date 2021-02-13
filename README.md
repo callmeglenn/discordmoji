@@ -17,4 +17,4 @@ client.on('ready', function() {
 Discordmoji accepts
 * *unicode*
 * *snowflake* (eg. '1234567890')
-* OR *full emoji* (eg. '<:abc:1234567890>')
+* OR *full emoji* (eg. '<:emojiname:1234567890>')
